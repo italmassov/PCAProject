@@ -2,8 +2,7 @@
 #include <iostream>
 #include <fstream>    // for reading CSV
 #include <sstream>    // for CSV parsing
-#include <cmath>      // for math functions
-#include <algorithm>  // for basic utility
+#include <stdexcept>  // to throw the exceptions
 
 using std::vector;
 using std::string;
