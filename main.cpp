@@ -30,7 +30,7 @@ int main(){
     char custom_tol;
     cout << "Use default tolerance (0.001)? (y/n):";
     cin >> custom_tol;
-    if(custom_tol == 'n' || custom_tol == "N"){
+    if(custom_tol == 'n' || custom_tol == 'N'){
         cout << "Enter tolerance";
         cin >> tolerance;
     }

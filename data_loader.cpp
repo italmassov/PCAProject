@@ -2,5 +2,6 @@
 
 vector<vector<double>> load_csv_data(const string &filename)
 {
-    return vector<vector<double>>();
+    // Temporary placeholder
+    return {{1.0, 2.0}, {3.0, 4.0}};
 }

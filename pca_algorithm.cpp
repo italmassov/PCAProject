@@ -2,7 +2,8 @@
 
 vector<vector<double>> run_pca(vector<vector<double>> &data, int num_components, double tolerance, int max_iterations)
 {
-    return vector<vector<double>>();
+    // Temporary placeholder principal component
+    return {{0.5, 0.5}, {0.5, -0.5}};
 }
 
 vector<double> find_principal_component(vector<vector<double>> &data, double tolerance, int max_iterations)
