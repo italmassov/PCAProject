@@ -1,9 +1,6 @@
 #include <vector>
 #include <iostream>
-#include <fstream>    // for reading CSV
-#include <sstream>    // for CSV parsing
-#include <cmath>      // for math functions
-#include <algorithm>  // for basic utility
+#include <stdexcept>  // for exceptions
 
 using std::vector;
 
