@@ -54,16 +54,15 @@ vector<double> normalize_vector(const vector<double> &vec)
     return result;
 }
 
-vector<vector<double>> outer_product(const vector<double> &col_vec, vector<double> &row_vec)
+vector<vector<double>> outer_product(const vector<double>& col_vec, const vector<double>& row_vec)
 {
-    vector<vector<double>> result(col_vec.size(), vector<double>(row_vec.size()));
-    for(size_t i=0; i<col_vec.size(); ++i){
-        for(size_t j=0; j<row_vec.size(); ++j){
-            result[i][j] = col_vec[i]*row_vec[j];
-       }
+    std::vector<std::vector<double>> result(col_vec.size(), std::vector<double>(row_vec.size()));
+    for (size_t i = 0; i < col_vec.size(); ++i) {
+        for (size_t j = 0; j < row_vec.size(); ++j) {
+            result[i][j] = col_vec[i] * row_vec[j];
+        }
     }
-    return result;
-}
+    return result;}
 
 vector<vector<double>> substract_matrix(const vector<vector<double>> &A, vector<vector<double>> &B)
 {

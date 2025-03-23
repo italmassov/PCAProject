@@ -20,7 +20,8 @@ vector<double> find_principal_component(
     int max_iterations
 );
 
-void shrik_matrix(
+void shrink_matrix(
     vector<vector<double>>& data,
-    const vector<double>& principal_component   
+    const vector<double>& t_i,
+    const vector<double>& p_i
 );
