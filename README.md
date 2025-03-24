@@ -26,4 +26,4 @@ This step "removes" the information about the principal component from the data 
 7. Go back to step 1 to calculate the next principal component.
 
 
-![Power Iteration Method Animation][power_iteration_demo.gif]
+![Power Iteration Method Animation](power_iteration_demo.gif)
